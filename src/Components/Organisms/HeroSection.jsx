@@ -1,6 +1,7 @@
 import React from "react";
 import { Button } from "../Atoms/Button";
 import Aurora from "../../Backgrounds/Aurora/Aurora";
+import HeroImg from "../../assets/hero-image.avif";
 
 export function HeroSection() {
   return (
@@ -46,7 +47,7 @@ export function HeroSection() {
             <div className="hidden lg:block">
               <div className="w-[550px] h-[550px] mx-auto rounded-full overflow-hidden border-4 border-purple-500/30 shadow-lg">
                 <img
-                  src="/src/assets/hero-image.avif"
+                  src={HeroImg}
                   alt="Developer"
                   className="w-full h-full object-cover"
                 />

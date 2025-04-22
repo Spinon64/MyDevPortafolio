@@ -1,4 +1,8 @@
 import React from "react";
+import FestivalImg from "../../assets/FestivalWebsite.avif";
+import CIFImg from "../../assets/CIFGenerator.avif";
+import WeatherImg from "../../assets/WeatherApp.avif";
+import SplitImg from "../../assets/splitneat.avif";
 
 export function ProjectsSection() {
   const projects = [
@@ -6,7 +10,7 @@ export function ProjectsSection() {
       title: "Festival Website",
       description:
         "Responsive and accessible website to view information about your favorite festivals around the world",
-      image: "/src/assets/FestivalWebsite.avif",
+      image: FestivalImg,
       demoLink: "https://festivalsaroundtheworld.netlify.app/",
       githubLink: "https://github.com/Spinon64/FestivalesWeb",
       technologies: ["HTML", "CSS", "JavaScript"],
@@ -15,7 +19,7 @@ export function ProjectsSection() {
       title: "Weather App",
       description:
         "A weather application that displays current weather and forecasts based on user search.",
-      image: "/src/assets/WeatherApp.avif",
+      image: WeatherImg,
       demoLink: "https://weatherappspc.netlify.app/",
       githubLink: "https://github.com/Spinon64/WeatherApp",
       technologies: ["JavaScript", "API", "CSS", "React"],
@@ -23,7 +27,7 @@ export function ProjectsSection() {
     {
       title: "Figma AI CIF Generator",
       description: "A full prototype of a CIF generator powered by AI",
-      image: "/src/assets/CIFGenerator.avif",
+      image: CIFImg,
       githubLink: "#",
       demoLink: "https://www.figma.com/community/file/1496587881311789534",
       technologies: ["Figma"],
@@ -32,7 +36,7 @@ export function ProjectsSection() {
       title: "Split and eat",
       description:
         "An application to share accounts among colleagues and know each person's contribution.",
-      image: "/src/assets/splitneat.avif",
+      image: SplitImg,
       demoLink: "https://splitneatspc.netlify.app/",
       githubLink: "https://github.com/Spinon64/splitNeat",
       technologies: ["React", "CSS"],

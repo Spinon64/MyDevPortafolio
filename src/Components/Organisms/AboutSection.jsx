@@ -1,4 +1,5 @@
 import React from "react";
+import AboutImg from "../../assets/about-me-image.avif";
 
 export function AboutSection() {
   return (
@@ -17,7 +18,7 @@ export function AboutSection() {
             <div className="relative rounded-2xl overflow-hidden bg-gradient-to-b from-pink-800 to-purple-950 p-8">
               <div className="aspect-square rounded-2xl overflow-hiddenflex items-center justify-center">
                 <img
-                  src="/src/assets/about-me-image.avif"
+                  src={AboutImg}
                   alt="Profile"
                   className="w-full h-full object-cover"
                 />
